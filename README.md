@@ -1,2 +1,38 @@
 # PrimeNumberCheck
-An optimized prime number checker in Java, improving performance by simplifying logic and removing unnecessary checks. The code is cleaner, easier to understand, and includes a user input loop for checking multiple numbers in one session. Designed for better readability and efficiency
+This project contains a simplified and optimized implementation of a prime number checker in Java. The code allows users to input a number and determine whether it is prime, while improving upon a standard approach for efficiency, readability, and maintainability.
+
+### Features
+Optimized Prime Check Logic: The program checks whether a number is prime by iterating from 2 to the input number and breaks early if a divisor is found. This approach improves simplicity compared to the original square root approach.
+
+User-Friendly Input Loop: The program continuously prompts the user to input numbers for checking and only stops when the user enters 1 to end the session.
+
+Clean and Readable Code: The rewritten code is more concise and understandable, making it easier for new programmers to follow and modify.
+
+### Usage
+1. Run the program.
+2. Enter a number to check if it's prime.
+3. The program will output whether the number is prime or not.
+4. To exit, input the number 1.
+
+Example:
+![javacode](https://github.com/user-attachments/assets/43f4b353-fd7e-4ec0-8891-544e9e7ca978)
+
+### Code Breakdown
+
+**Prime checking algorithm**
+
+The core of the program is the isPrime method:
+![screenshot](https://github.com/user-attachments/assets/54de2bdb-6430-4b3f-9e31-26dbd12686b8)
+
+Efficiency: The method iterates from 2 to the input number and immediately returns false if a divisor is found.
+Clarity: The code has been simplified to eliminate unnecessary checks and reduce the overall complexity.
+
+### How to run
+1. Make sure you have Java installed on your machine.
+2. Compile the program:
+   javac IsPrime.java
+3. Run the program:
+   java IsPrime
+
+### Contributing
+If you'd like to contribute improvements or additional features, feel free to submit a pull request or open an issue.
