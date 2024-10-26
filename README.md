@@ -15,14 +15,15 @@ Clean and Readable Code: The rewritten code is more concise and understandable, 
 4. To exit, input the number 1.
 
 Example:
-![javacode](https://github.com/user-attachments/assets/43f4b353-fd7e-4ec0-8891-544e9e7ca978)
+![javacode](https://github.com/user-attachments/assets/0e201bd2-5a9b-457e-be6e-ebc9e0ca008e)
+
 
 ### Code Breakdown
 
 **Prime checking algorithm**
 
 The core of the program is the isPrime method:
-![screenshot](https://github.com/user-attachments/assets/54de2bdb-6430-4b3f-9e31-26dbd12686b8)
+
 
 Efficiency: The method iterates from 2 to the input number and immediately returns false if a divisor is found.
 Clarity: The code has been simplified to eliminate unnecessary checks and reduce the overall complexity.
@@ -33,6 +34,7 @@ Clarity: The code has been simplified to eliminate unnecessary checks and reduce
    javac IsPrime.java
 3. Run the program:
    java IsPrime
+![screenshot](https://github.com/user-attachments/assets/fe5d260f-2350-42a3-92c6-a0b7cb60191d)
 
 ### Contributing
 If you'd like to contribute improvements or additional features, feel free to submit a pull request or open an issue.
