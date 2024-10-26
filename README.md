@@ -15,8 +15,7 @@ Clean and Readable Code: The rewritten code is more concise and understandable, 
 4. To exit, input the number 1.
 
 Example:
-![javacode](https://github.com/user-attachments/assets/0e201bd2-5a9b-457e-be6e-ebc9e0ca008e)
-
+![screenshot](https://github.com/user-attachments/assets/fe5d260f-2350-42a3-92c6-a0b7cb60191d)
 
 ### Code Breakdown
 
@@ -34,7 +33,7 @@ Clarity: The code has been simplified to eliminate unnecessary checks and reduce
    javac IsPrime.java
 3. Run the program:
    java IsPrime
-![screenshot](https://github.com/user-attachments/assets/fe5d260f-2350-42a3-92c6-a0b7cb60191d)
+![javacode](https://github.com/user-attachments/assets/0e201bd2-5a9b-457e-be6e-ebc9e0ca008e)
 
 ### Contributing
 If you'd like to contribute improvements or additional features, feel free to submit a pull request or open an issue.
